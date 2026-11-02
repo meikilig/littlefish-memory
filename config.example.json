@@ -1,0 +1,57 @@
+{
+  "character": "demo",
+  "owner": {
+    "qq": "10001",
+    "label": "主人"
+  },
+  "memory": {
+    "inject_max_chars": {
+      "qq": 2200,
+      "bili": 2000
+    },
+    "room_max_chars": 320,
+    "rooms_active_hours": 12,
+    "rooms_max": 3,
+    "max_records": 600,
+    "daily_hour": 4,
+    "decay_per_day": 1,
+    "decay_min_age_days": 1,
+    "fuzzy_after_days": 7,
+    "forget_after_days": 60,
+    "min_owner_importance": 65,
+    "first_window_days": 30,
+    "first_slots": 3,
+    "maintain_interval_min": 10,
+    "auto_recall": true,
+    "recall_topn": 3,
+    "recall_min_hits": 2,
+    "recall_same_topic_hours": 24,
+    "recall_block_chars": 200,
+    "promote_hits": {
+      "l2": 1,
+      "l3": 3,
+      "l4": 8
+    },
+    "hold_days": {
+      "l2": 7,
+      "l3": 14
+    },
+    "l1_keep_days": 14
+  },
+  "privacy": {
+    "redact": true,
+    "isolation": {
+      "enabled": true,
+      "private_in_group": false,
+      "cross_group": false,
+      "group_in_private": false
+    }
+  },
+  "archive": {
+    "enabled": true,
+    "open_max": 1200,
+    "catalog_topn": 5,
+    "hour": 23,
+    "minute": 30
+  }
+}

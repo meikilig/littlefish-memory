@@ -1,0 +1,23 @@
+# 真实数据一律不进版本库
+data/
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# 本地环境
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# 跑起来之后会生成的东西
+*.log
+config.json
+.env
+
+# 系统
+.DS_Store
+Thumbs.db
